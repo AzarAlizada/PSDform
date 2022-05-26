@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    margin: 0;
+   box-sizing: border-box;
+}
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+}
+
+#one{
+    background-color: #b24a50;
+}
+#one .container span{
+    font-size: 50px;
+line-height: 60px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Damion";
+}
+
+#one nav ul{
+    float: right;
+}
+
+#one nav ul li{
+    display: inline;
+    margin-left: 10px;
+}
+
+#one nav ul li a{
+    font-size: 18px;
+line-height: 60px;
+color: #ffffff;
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;
+text-align: right;
+text-decoration: none;
+padding: 42px 21px 18px 21px;
+}
+
+.active,#one nav ul li a:hover{
+    background-color: #df5c64;
+    border-radius: 5px;
+    
+}
+#one nav{
+    padding-top: 15px;
+}
+
+.container .services h1{
+    font-size: 60px;
+line-height: 58px;
+color: #ffffff;
+font-weight: 300;
+font-family: 'Montserrat', sans-serif;
+padding-top: 125px;
+text-align: center;
+}
+.container .services h4{
+    width: 1099px;
+height: 40px;
+font-size: 20px;
+line-height: 58px;
+color: #ffffff;
+font-weight: 400;
+font-family: 'Montserrat', sans-serif;
+text-align: center;
+padding-top: 50px;
+}
+.container .services h5{
+    width: 1100px;
+height: 75px;
+font-size: 14px;
+line-height: 24px;
+color: #ffcccf;
+font-weight: 400;
+font-family:'Montserrat', sans-serif;
+text-align: center;
+padding-top: 30px;
+}
